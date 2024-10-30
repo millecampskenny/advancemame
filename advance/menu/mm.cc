@@ -581,7 +581,7 @@ static adv_conf_conv STANDARD[] = {
 	{ "*", "device_video_zoom", "*", "%s", "device_video_overlay", "%s", 0 }, /* rename */
 /* 2.2.17 */
 	{ "*", "device_video_overlay", "*", "%s", "device_video_overlaysize", "%s", 0 }, /* rename */
-	{ "*", "sort", "coin", "%s", "%s", "play", 0 }, /* rename */
+	{ "*", "sort", "coin", "%s", "%s", "play", 5 }, /* rename */
 	{ "*", "sort", "timepercoin", "%s", "%s", "timeperplay", 0 }, /* rename */
 /* 2.3.2 */
 	{ "*", "video_size", "*", "%s", "display_size", "%s", 0 }, /* rename */
